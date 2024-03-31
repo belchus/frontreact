@@ -1,0 +1,88 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Card {
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    justify-content: center;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
+}
+.cardspadre {
+    position: relative;
+  }
+  
+  .agregar-carrito {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    width: 75%; /* Ancho igual al de la imagen */
+    transform: translate(-50%, -50%);
+    background-color: rgba(191, 99, 219, 0.8);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    opacity: 0; /* Ocultar inicialmente */
+    transition: opacity 0.3s ease;
+  }
+  
+  .cards:hover .agregar-carrito {
+    opacity: 1; /* Mostrar al pasar el mouse */
+  }
+.cardspadre{
+
+    margin: 20px; /* Espacio entre los elementos */
+}
+.cart{
+    height: 35px;
+   width: 100px;
+   margin-left: 20px;
+    text-align: center;
+    background-color: rgba(168, 123, 199, 0.5); /* Aquí 0.5 es la opacidad, puedes ajustarlo según sea necesario */
+    
+  
+}
+
+.addcart{
+    width: 30px;
+    height: 35px;
+    justify-content: center;;
+    background-color: rgba(168, 123, 199, 0.5); /* Aquí 0.5 es la opacidad, puedes ajustarlo según sea necesario */
+   
+ 
+}
+
+
+.desc{
+    padding: 5px;
+    color: azure;
+}
+
+.cards{
+    background-color: rgba(168, 123, 199, 0.5); /* Aquí 0.5 es la opacidad, puedes ajustarlo según sea necesario */
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  color: rgb(255, 255, 255);
+
+}
+.link{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #9a47c7;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+

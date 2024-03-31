@@ -1,0 +1,123 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0b0ff;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+
+    text-align: center;
+    font-family:Bebas Neue, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+ 
+}
+.Cart{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    margin-right: 60px;
+    z-index: 9999; 
+    
+}
+
+.img1 {
+    width: 40vw;
+    height: 70vh;
+    margin-top: 20px;
+    border-radius: 10%; /* Esto hará que la imagen tenga forma circular */
+    /* Esto asegura que la imagen se ajuste correctamente al contenedor circular */
+}
+.miheader{
+    background-color: white;
+    text-align: center;
+    font-family:Bebas Neue, sans-serif;
+    font-size: 50px;
+    color: white;
+    height: 800px;
+    margin-top: 0px;
+    
+    
+}
+.submenu{
+    position: absolute;
+  z-index: 9999; 
+  width: 600px;
+  
+}
+.submenu2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Ajusta la posición hacia la derecha */
+    min-width: 150px; /* Ajusta el ancho según sea necesario */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde */
+
+    position: absolute;
+  z-index: 9999; 
+  }
+  
+  .submenu2 li {
+    display: block;
+  }
+  
+  .submenu2 li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .submenu2 li a:hover {
+    background-color: #f4f4f4; /* Cambia el color de fondo al pasar el mouse */
+  }
+ .titulo{
+    margin: 15px;
+ }
+ .navbar ul ul{
+    display: none;
+    position: absolute;
+    list-style-type:none;
+    text-decoration: none;
+    background-color: #e0b0ff;
+}
+
+.navbar ul li:hover{
+    padding: 15px;
+    text-align: left;
+    background-color: #e0b0ff;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #e0b0ff;
+    padding: 0.3rem;
+    font-size: 30px;
+    margin: 5px;
+    position: relative;
+
+}
+
+.navbar ul li:hover > ul{
+display: block;
+background-color:#e0b0ff;
+}
+
+
+/*.navbar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;  
+
+  }
+  */

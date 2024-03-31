@@ -1,0 +1,58 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+.image-link {
+  position: relative;
+  width: calc(100% / 3); /* Esto divide el contenedor en tres columnas */
+  padding: 10px;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+.carousel-container{
+  margin-top: 200px;
+}
+.image {
+  width: 100%;
+  height:100%;
+  transition: opacity 0.3s; /* Agregamos una transición suave */
+}
+.carousel .control-dots {
+  display: none;
+}
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
+.image5{
+  width: 100%;
+  height:20%;
+  margin-top: 100px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto vertical y horizontalmente */
+
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-family:Bebas Neue, sans-serif;
+  font-size: 70px;
+}
+
+.image:hover {
+  opacity: 0.5; /* Cambiamos la opacidad al pasar el mouse */
+}
+.image-link:hover .text {
+  opacity: 1;
+}
+
+.casa {
+  background-color: rgb(184, 135, 184);
+}

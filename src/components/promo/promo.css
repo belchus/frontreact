@@ -1,0 +1,33 @@
+.promo-bar {
+    position: fixed; /* Fijar la posición */
+    top: 0; /* Colocar el rectángulo en la parte superior de la ventana */
+    left: 0; /* Alinear el rectángulo a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 50px; /* Altura del rectángulo */
+    background-color: #ffc107; /* Color de fondo del rectángulo */
+    color: #ffffff; /* Color del texto */
+    z-index: 1001; /* Asegurarse de que esté por encima del navbar */
+    overflow: hidden; /* Ocultar cualquier texto que se desborde del rectángulo */
+  }
+  
+  .promo-text {
+    position: absolute; /* Establecer posición absoluta para el texto */
+    top: 50%; /* Alinear el texto verticalmente en el centro */
+    left: 0; /* Alinear el texto a la izquierda */
+    white-space: nowrap; /* Evitar que el texto se divida en múltiples líneas */
+    animation: slide 10s infinite linear; /* Animación para hacer que el texto se desplace */
+  }
+  
+  .repeat-text {
+    margin-left: 100%; /* Mover el texto repetido fuera del rectángulo */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0); /* Comienza desde la posición inicial */
+    }
+    100% {
+      transform: translateX(-100%); /* Se desplaza completamente fuera del rectángulo */
+    }
+  }
+  

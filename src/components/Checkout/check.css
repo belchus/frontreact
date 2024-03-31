@@ -1,0 +1,46 @@
+/* Estilos para el contenedor principal */
+.checkout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para el contenedor de los productos */
+  .product-container {
+    flex: 1;
+  }
+  
+  /* Estilos para el contenedor del resumen y el botón de compra */
+  .summary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px; /* Espacio entre el contenedor de productos y el resumen */
+  }
+  
+  /* Estilos para los productos */
+  .product {
+    margin-bottom: 20px; /* Espacio entre cada producto */
+  }
+  
+  /* Estilos para el precio total */
+  .total-price {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón de compra */
+  .checkout-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de compra al pasar el ratón */
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+
+  
